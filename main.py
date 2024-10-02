@@ -1,11 +1,11 @@
-# This entrypoint file to be used in development. Start by reading README.md
+# Este arquivo de entrada é usado em desenvolvimento. Comece lendo o README.md
 import time_series_visualizer
 from unittest import main
 
-# Test your function by calling it here
+# Testa as funções chamando-as aqui
 time_series_visualizer.draw_line_plot()
 time_series_visualizer.draw_bar_plot()
 time_series_visualizer.draw_box_plot()
 
-# Run unit tests automatically
+# Executa os testes unitários automaticamente
 main(module='test_module', exit=False)
